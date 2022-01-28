@@ -3,33 +3,11 @@ import logo from './logo.svg';
 import Button from './components/Info';
 import './App.css';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.tsx</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
 interface IData {
   name: string;
   kelas: string;
   iskelasPagi: boolean;
 }
-
 
 class Component1 extends React.Component<any,IData, any> {
   constructor(props: any) {
@@ -108,21 +86,7 @@ class Component2 extends React.Component<any,IState> {
   
 }
 
-// class Component3 extends React.Component {
-//   render(){
-//     return()=>{
-//       for (let i = 1; i++;){
-//         const counter = i % 3 == 0;
-//         console.log (
-//           <img src='https://lordsofgaming.net/wp-content/uploads/2020/10/Screen-Shot-2020-10-19-at-11.15.33-PM-150x150.png'></img>
-//         );
-//       }
-//     }
-//   }
-// }
-
 export {
   Component1,
   Component2,
- 
 }
